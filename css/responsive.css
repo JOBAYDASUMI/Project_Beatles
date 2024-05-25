@@ -1,0 +1,96 @@
+/* X-Small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap */
+@media (min-width: 320px) and (max-width:575){
+    header{
+        background-color: red;
+    }
+.welcome p{
+    text-align: center;
+}
+.header_icon ul li a{
+    padding: 0 9px;
+}
+.navbar-nav{
+    margin-top: 10px;
+}
+.navbar-nav .nav-item .nav-link.active,
+.navbar-nav .nav-item .nav-link
+{
+    background-color: gray;
+    text-align: center;
+    border-bottom: 1pc solid white;
+    color: white;
+}
+.banner_content {
+    text-align: center;
+} 
+.banner_content h1{
+    font-size: 32px;
+}
+.service_main {
+    margin-top: 50px;
+}
+.big_img{
+    margin-bottom: 20px;
+}
+.team_title p{
+    margin-bottom: 5px;
+}
+.piramid{
+    top: -7%;
+    left: 44%;
+}
+.round_img{
+    margin-top: 20px;
+}
+.footer_logo,
+.footer_text,
+.common_heading h4{
+    text-align: center;
+}
+.footer_icon a{
+    margin-left: 10px;
+}
+.footer_menu{
+    text-align: center;
+}
+}
+
+/*// Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767) { 
+.service_main{
+    margin-top: 50px;
+}
+.big_img{
+    margin-bottom: 20px;
+}
+.piramid{
+    top: -6%;
+    left: 42%;
+}
+.footer_logo,
+.footer_text,
+.common_heading h4{
+    text-align: center;
+}
+.footer_icon a{
+    margin-left: 10px;
+}
+.footer_menu{
+    text-align: center;
+}
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991) { 
+
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199) {  }
+
+/* X-Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399) { }
+
+/* XX-Large devices (larger desktops, 1400px and up)*/
+@media (min-width: 1400px) { }
